@@ -39,7 +39,7 @@ Each food item is represented as a row in the database table, with schema design
 ![image](https://github.com/Ray-Ream/ASPNET-Webform-FoodWebsite-with-MSSQL-InfoManagement/blob/master/images/erd-1.png)
 ![image](https://github.com/Ray-Ream/ASPNET-Webform-FoodWebsite-with-MSSQL-InfoManagement/blob/master/images/erd-2.png)
 
-- **SQL Tables Design**  
+**SQL Tables Design**  
 Category Table:  
 | Column Name      | Data Type      | Allow Null | Description                                 |
 | ---------------- | -------------- | ---------- | --------------------------------------------|
