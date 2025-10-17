@@ -39,6 +39,12 @@ Each food item is represented as a row in the database table, with schema design
 ![image](https://github.com/Ray-Ream/ASPNET-Webform-FoodWebsite-with-MSSQL-InfoManagement/blob/master/images/erd-1.png)
 ![image](https://github.com/Ray-Ream/ASPNET-Webform-FoodWebsite-with-MSSQL-InfoManagement/blob/master/images/erd-2.png)
 
+Category Table:  
+| Column Name      | Data Type      | Allow Null | Description                                 |
+| ---------------- | -------------- | ---------- | --------------------------------------------|
+| **id**           | `int`          | No         | Unique identifier for each category item.   |
+| **name**         | `nvarchar(50)` | Yes        | Category description name .                 |
+
 Foods Table:  
 | Column Name      | Data Type      | Allow Null | Description                                           |
 | ---------------- | -------------- | ---------- | ----------------------------------------------------- |
