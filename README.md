@@ -39,11 +39,27 @@ Each food item is represented as a row in the database table, with schema design
 ![image](https://github.com/Ray-Ream/ASPNET-Webform-FoodWebsite-with-MSSQL-InfoManagement/blob/master/images/erd-1.png)
 ![image](https://github.com/Ray-Ream/ASPNET-Webform-FoodWebsite-with-MSSQL-InfoManagement/blob/master/images/erd-2.png)
 
+- **SQL Tables Design**  
 Category Table:  
 | Column Name      | Data Type      | Allow Null | Description                                 |
 | ---------------- | -------------- | ---------- | --------------------------------------------|
 | **id**           | `int`          | No         | Unique identifier for each category item.   |
-| **name**         | `nvarchar(50)` | Yes        | Category description name .                 |
+| **name**         | `nvarchar(50)` | Yes        | Category description name.                  |
+
+Favorite Table:  
+| Column Name      | Data Type | Allow Null | Description                                 |
+| ---------------- | ----------| ---------- | --------------------------------------------|
+| **id**           | `int`     | No         | Unique identifier for each category item.   |
+| **fromUser**     | `int`     | Yes        | Related to the User table.                  |
+| **fromFoods**    | `int`     | Yes        | Related to the Foods table.                 |
+
+User Table:  
+| Column Name  | Data Type       | Allow Null | Description                                 |
+| ------------ | ----------------| ---------- | --------------------------------------------|
+| **id**       | `int`           | No         | Unique identifier for each category item.   |
+| **name**     | `nvarchar(50)`  | Yes        | Record user name.                           |
+| **email**    | `nvarchar(50)`  | No         | Record user email.                          |
+| **pwd**      | `nvarchar(50)`  | No         | Record user password.                       |
 
 Foods Table:  
 | Column Name      | Data Type      | Allow Null | Description                                           |
