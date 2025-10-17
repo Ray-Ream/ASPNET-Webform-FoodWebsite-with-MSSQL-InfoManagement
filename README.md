@@ -71,3 +71,16 @@ Foods Table:
 | **price**        | `nvarchar(50)` | Yes        | Price or price range.                                 |
 | **fromCategory** | `int`          | Yes        | Category reference (foreign key).                     |
 | **clickTimes**   | `int`          | Yes        | Number of user clicks or views.                       |
+
+---
+
+### System Overview
+
+- Website information newly added display page  
+![image](https://github.com/Ray-Ream/ASPNET-Webform-FoodWebsite-with-MSSQL-InfoManagement/blob/master/images/web-insert.png)
+
+- Website information newly added display page (after adding)  
+![image](https://github.com/Ray-Ream/ASPNET-Webform-FoodWebsite-with-MSSQL-InfoManagement/blob/master/images/web-insert-after.png)
+
+- Website Information Editor Display Page  
+![image](https://github.com/Ray-Ream/ASPNET-Webform-FoodWebsite-with-MSSQL-InfoManagement/blob/master/images/web-edit.png)
