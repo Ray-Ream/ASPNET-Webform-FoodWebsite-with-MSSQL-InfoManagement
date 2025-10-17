@@ -35,6 +35,13 @@ https://github.com/Ray-Ream/ASPNET-Webform-FoodWebsite-with-MSSQL-InfoManagement
 The system is fully integrated with Microsoft SQL Server, which stores all food-related data, including item details, pricing, and browsing statistics.  
 Each food item is represented as a row in the database table, with schema design ensuring flexibility and consistency across operations.  
 
+- Database ERD:
+1.  
+![image](https://github.com/Ray-Ream/ASPNET-Webform-FoodWebsite-with-MSSQL-InfoManagement/blob/master/images/erd-1.png)
+2.  
+![image](https://github.com/Ray-Ream/ASPNET-Webform-FoodWebsite-with-MSSQL-InfoManagement/blob/master/images/erd-2.png)
+
+Foods Table:  
 | Column Name      | Data Type      | Allow Null | Description                                           |
 | ---------------- | -------------- | ---------- | ----------------------------------------------------- |
 | **id**           | `int`          | No         | Unique identifier for each food item.                 |
